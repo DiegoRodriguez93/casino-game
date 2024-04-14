@@ -1,0 +1,27 @@
+#icon-matrix {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  transition: transform 1s, opacity 1s ease;
+}
+
+.icon.animate {
+  transform: translateY(1000%);
+}
+
+.icon.animate-in {
+  transform: translateY(1000%);
+  opacity: 1;
+}

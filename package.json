@@ -1,0 +1,18 @@
+{
+  "name": "fruit-explosion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/game.js",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"http-server ./\"",
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "tsc-watch": "^6.2.0",
+    "typescript": "^5.4.5"
+  }
+}
